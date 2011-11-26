@@ -1,0 +1,7 @@
+# copy to settings
+PASSWORD=password
+SSID=Mywif
+WAN_INTERFACE=ppp0
+WAN_NAME="ppp"
+USES_NETWORK_MANAGER="yes"
+

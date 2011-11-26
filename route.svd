@@ -1,0 +1,14 @@
+[supervisord]
+
+
+[program:hostapd]
+command=hostapd hostapd.conf
+redirect_stderr=true
+stdout_logfile=hostapd.log
+autorestart=true
+
+[program:dhcpd]
+command=./mydhcpd -cf ./dhcpd.conf -f
+redirect_stderr=true
+stdout_logfile=dhcpd.log
+autorestart=true

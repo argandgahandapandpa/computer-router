@@ -1,8 +1,7 @@
 *.log
 mydhcpd
-*.swp
 hostapd.conf
-settings # secrets
+settings
 *.swo
+*.swp
 *.pid
-
